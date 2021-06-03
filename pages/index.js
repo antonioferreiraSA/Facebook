@@ -20,3 +20,8 @@ export default function Home() {
     </div>
   )
 }
+
+export async function getServerSideProps(context) {
+  //Get user 
+  const session = await get
+}
