@@ -1,3 +1,4 @@
+import InputBox from './InputBox'
 import React from 'react'
 import Stories from './Stories'
 
@@ -8,6 +9,7 @@ function Feed() {
         {/* Stories */}
         <Stories/>
         {/* InputBox */}
+        <InputBox/>
         {/* post */}
       </div>
     </div>

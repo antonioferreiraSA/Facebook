@@ -6,7 +6,7 @@ import {
 } from "@heroicons/react/solid";
 import {
   ChevronDownIcon,
-  ShoppingBagtIcon,
+  ShoppingBagIcon,
   UserGroupIcon,
 } from "@heroicons/react/outline";
 
@@ -21,7 +21,7 @@ function Sidebar() {
       <SidebarRow src={session.user.image} title={session.user.name} />
       <SidebarRow Icon={UsersIcon} title="Frineds"/>
       <SidebarRow Icon={UserGroupIcon} title="Group"/>
-      <SidebarRow Icon={ShoppingBagtIcon} title="Marketplace"/>
+      <SidebarRow Icon={ShoppingBagIcon} title="Marketplace"/>
       <SidebarRow Icon={DesktopComputerIcon} title="Watch"/>
       <SidebarRow Icon={CalendarIcon} title="Events"/>
       <SidebarRow Icon={ClockIcon} title="Memories"/>
